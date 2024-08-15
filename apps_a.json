@@ -1,0 +1,46 @@
+{
+    "apps": [
+        {
+            "app_name": "App Store",
+            "app_icon_link": "https:\/\/i.ibb.co\/4WwrLs3\/Untitled-3.pngD3mf02fDFseaUAcizRgIWEJOEs492vOpm8tV8sBI3VnFtELRM7YhInjhATqs9MzTS3ZLdk89tSAqjRB6-xY0uzG16v59JcNL5iTpw66z2xNrqgnCIjS74rNy234cDCDMmsE7r6ilIzS6brqor4dYLJSQl5CxKypuRSUpNAxITmeawe\/p.png",
+            "apk_link": "https:\/\/www.dropbox.com\/scl\/fi\/ldynmytawidqj9zr7v5f8\/App-Store_4.3.5.apk?rlkey=9btzf2gabaaig9ollkzj0d5mn&dl=1",
+            "app_version": "2.0",
+            "package_name": "com.evolvo.aurora.store.debuh"
+        },
+        {
+            "app_name": "Dvar Malchus",
+            "app_icon_link": "https:\/\/image.winudf.com\/v2\/image\/Y29tLmR2YXJtYWxjaHVzLmFwcF9pY29uXzBfNGM0YjFkNzY\/icon.webp?w=280&fakeurl=1&type=.webp",
+            "apk_link": "https:\/\/www.dropbox.com\/scl\/fi\/2bg9ufiro8aajyynvvlic\/_0.0.17.apk?rlkey=jgrccmzzrcp3dgo6bbegnrphy&dl=1",
+            "app_version": "0.0.17",
+            "package_name": "com.dvarmalchus.app"
+        },
+        {
+            "app_name": "Kika T9",
+            "app_icon_link": "https:\/\/cdn.apkmonk.com\/logos\/com.meditaide.old.t9.keyboard_80x80.png",
+            "apk_link": "https:\/\/www.dropbox.com\/scl\/fi\/2kp4e7g1w1680bqljrb3p\/12Key-Keyboard_2021.08.25-1.75.apk?rlkey=s0ok7g8skcur0rzjfs6pxs6e3&dl=1",
+            "app_version": "175",
+            "package_name": "com.iqqijni.dv12key"
+        },
+        {
+            "app_name": "KP manual",
+            "app_icon_link": "https:\/\/i.ibb.co\/4WwrLs3\/Untitled-3.pngD3mf02fDFseaUAcizRgIWEJOEs492vOpm8tV8sBI3VnFtELRM7YhInjhATqs9MzTS3ZLdk89tSAqjRB6-xY0uzG16v59JcNL5iTpw66z2xNrqgnCIjS74rNy234cDCDMmsE7r6ilIzS6brqor4dYLJSQl5CxKypuRSUpNAxITmeawe\/p.png",
+            "apk_link": "https:\/\/www.dropbox.com\/scl\/fi\/8784hceiocmr802r920nn\/version_without_ad_id.apk?rlkey=au6smelodphd0g4huc9tj96g3&dl=1",
+            "app_version": "4",
+            "package_name": "Kpaj"
+        },
+        {
+            "app_name": "Ashreinu.app",
+            "app_icon_link": "https:\/\/i.ibb.co\/b1GzRTM\/favicon-1.png",
+            "apk_link": "https:\/\/www.dropbox.com\/scl\/fi\/eo59fqewmps8xvzcx2f4e\/Ashreinu.app_1.0.apk?rlkey=p7fdmfr9j7l1x2roehu7ph8it&dl=1",
+            "app_version": "1.0",
+            "package_name": "com.ashreinu.app"
+        },
+        {
+            "app_name": "ColorNote",
+            "app_icon_link": "https:\/\/imageupload.io\/ib\/s8ivxduP5Ci9FrY_1697515785.png",
+            "apk_link": "https:\/\/www.dropbox.com\/scl\/fi\/f5bk2fkzd8gxy7vr61mwo\/ColorNote_v4_3_5.apk?rlkey=9iy2edhe503iqplo7ks4frxm5&dl=1",
+            "app_version": "1.1",
+            "package_name": "com.colornote"
+        }
+    ]
+}

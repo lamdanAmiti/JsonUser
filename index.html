@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch JSON from GitHub Gist</title>
+</head>
+<body>
+    <h1>Fetched JSON Data</h1>
+    <pre id="json-data">Loading...</pre>
+
+    <script>
+        // The URL of your public Gist
+        const GIST_URL = 'https://api.github.com/gists/fd5b8b9fc59e3e9a36504b508313107e';
+
+        // Function to fetch the JSON data
+        async function fetchJSONData() {
+            try {
+                const response = await fetch(GIST_URL);
+
+                if (!response.ok) {
+                    throw new Error(`Error: ${response.status} ${response.statusText}`);
+                }
+
+                const data = await response.json();
+
+                // Check if userData.json exists in the gist
+                if (data.files && data.files["userData.json"]) {
+                    const jsonContent = JSON.parse(data.files["userData.json"].content);
+                    document.getElementById('json-data').textContent = JSON.stringify(jsonContent, null, 2);
+                } else {
+                    document.getElementById('json-data').textContent = "userData.json not found in the Gist";
+                }
+            } catch (error) {
+                document.getElementById('json-data').textContent = `Error fetching data: ${error.message}`;
+            }
+        }
+
+        // Fetch the JSON data when the page loads
+        window.onload = fetchJSONData;
+    </script>
+</body>
+</html>

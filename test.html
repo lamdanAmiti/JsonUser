@@ -10,18 +10,13 @@
     <pre id="json-data">Loading...</pre>
 
     <script>
-        // The URL of your Gist
+        // The URL of your public Gist
         const GIST_URL = 'https://api.github.com/gists/fd5b8b9fc59e3e9a36504b508313107e';
 
         // Function to fetch the JSON data
         async function fetchJSONData() {
             try {
-                const response = await fetch(GIST_URL, {
-                    headers: {
-                        'Authorization': 'token YOUR_GITHUB_TOKEN_HERE', // Replace with your GitHub token
-                        'Accept': 'application/vnd.github.v3+json'
-                    }
-                });
+                const response = await fetch(GIST_URL);
 
                 if (!response.ok) {
                     throw new Error(`Error: ${response.status} ${response.statusText}`);
